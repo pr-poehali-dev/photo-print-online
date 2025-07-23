@@ -7,7 +7,11 @@ const Index = () => {
   const formats = [
     { name: 'А4', size: '210×297 мм', price: '150₽', icon: 'FileText' },
     { name: '10×15', size: '10×15 см', price: '25₽', icon: 'Image' },
-    { name: 'Квадрат', size: '20×20 см', price: '80₽', icon: 'Square' },
+    { name: '15×21', size: '15×21 см', price: '45₽', icon: 'Rectangle' },
+    { name: '18×18', size: '18×18 см', price: '70₽', icon: 'Square' },
+    { name: '30×40', size: '30×40 см', price: '250₽', icon: 'Monitor' },
+    { name: '30×45', size: '30×45 см', price: '280₽', icon: 'BookOpen' },
+    { name: '9×13', size: '9×13 см', price: '20₽', icon: 'CreditCard' },
     { name: 'Панорама', size: '30×10 см', price: '120₽', icon: 'Maximize' }
   ];
 
@@ -138,7 +142,7 @@ const Index = () => {
                 <ul className="space-y-2 text-gray-600">
                   <li className="flex items-center"><Icon name="Check" size={16} className="text-green-500 mr-2" />Стандартная бумага</li>
                   <li className="flex items-center"><Icon name="Check" size={16} className="text-green-500 mr-2" />Готовность 24 часа</li>
-                  <li className="flex items-center"><Icon name="Check" size={16} className="text-green-500 mr-2" />Размеры 10×15, 13×18</li>
+                  <li className="flex items-center"><Icon name="Check" size={16} className="text-green-500 mr-2" />Размеры 9×13, 10×15</li>
                 </ul>
               </CardContent>
             </Card>
