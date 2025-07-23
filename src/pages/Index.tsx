@@ -5,14 +5,14 @@ import Icon from '@/components/ui/icon';
 
 const Index = () => {
   const formats = [
-    { name: 'А4', size: '210×297 мм', price: '150₽', icon: 'FileText' },
+    { name: '9×13', size: '9×13 см', price: '20₽', icon: 'CreditCard' },
     { name: '10×15', size: '10×15 см', price: '25₽', icon: 'Image' },
     { name: '15×21', size: '15×21 см', price: '45₽', icon: 'Rectangle' },
     { name: '18×18', size: '18×18 см', price: '70₽', icon: 'Square' },
+    { name: 'А4', size: '210×297 мм', price: '150₽', icon: 'FileText' },
+    { name: 'Панорама', size: '30×10 см', price: '120₽', icon: 'Maximize' },
     { name: '30×40', size: '30×40 см', price: '250₽', icon: 'Monitor' },
-    { name: '30×45', size: '30×45 см', price: '280₽', icon: 'BookOpen' },
-    { name: '9×13', size: '9×13 см', price: '20₽', icon: 'CreditCard' },
-    { name: 'Панорама', size: '30×10 см', price: '120₽', icon: 'Maximize' }
+    { name: '30×45', size: '30×45 см', price: '280₽', icon: 'BookOpen' }
   ];
 
   const services = [
